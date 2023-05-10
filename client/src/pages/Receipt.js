@@ -52,7 +52,7 @@ function Receipt({ cartItems,  formData, handleConfirm  }) {
             // onClick={() => setShowReceipt(false)}
             onClick={handleConfirm}
         >
-            Confirm 
+            Confirm Purchase
       </button>
       
     </div>

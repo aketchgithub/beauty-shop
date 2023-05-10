@@ -8,3 +8,54 @@
     display: none;
 }
 
+body{
+     /* background-color: #fffdd0;  */
+     background-color: #f5f5f5
+}
+
+:root{
+    --blush-pink: #FFB6C1;
+  --lavender: #E6E6FA;
+  --deep-burgundy: #800020;
+  --emerald-green: #008000;
+}
+
+.button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 9999px;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--blush-pink);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover{
+    transform: translateY(-1px) scale(1.1);
+    background-color: var(--lavender);
+}
+.button:focus{
+    outline: none;
+    box-shadow: 0 0 0 4px var(--blush-pink);
+}
+.link{
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--deep-burgundy);
+    transition: color 0.3s ease-in-out;
+}
+.link:hover{
+    color: var(--emerald-green);
+}
+.link svg{
+    width: 1.5rem;
+   height: 1.5rem;
+   margin-left: 0.25rem;
+   fill: currentColor;
+}
+
+

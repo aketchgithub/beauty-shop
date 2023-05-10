@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const Sidebar = ({ setCategory }) => {
 
+  // eslint-disable-next-line no-unused-vars
   const [categories, setCategories] = useState([
     "All",
     "Serums",
@@ -22,7 +23,7 @@ const Sidebar = ({ setCategory }) => {
 
   return (
     <div className="p-0 mt-8 text-left h-screen w-44 bg-white ">
-      <h2 className="text-m font-bold mb-5">SHOP BY CATEGORY</h2>
+      <h2 className="text-m font-bold mb-5">PRODUCT CATEGORIES</h2>
       <ul className="p-0">
         {categories.map((category) => (
           <li 

@@ -15,7 +15,7 @@ function Home() {
       <div className="container ">
         {/* column 1 navbar */}
         <div className="flex flex-row items-center justify-between my-10" navbar>
-          <p className="text-3xl font-poppins">Beauty Bliss</p>
+          <p className="text-2xl font-poppins">BEAUTY BLISS.</p>
 
           {/* Buttons */}
           <div className="flex flex-row space-x-6">
@@ -51,7 +51,7 @@ function Home() {
             {/* comment */}
             <p className="text-2xs my-6">
               Elevate your beauty game with our premium cosmetics.
-              <p className="text-2xs my-0 mx-0 font-Montserrat">From skincare to makeup, we have everything you need to look and feel your best.</p>
+              <p className="text-2xs my-0 mx-0 font-Montserrat">From skincare to makeup, we have everything you need to look and feel in your best.</p>
               <p className="text-2xs my-0 mx-0 font-Montserrat">Shop now and indulge in the ultimate beauty experience!</p>
               {/* here is where the paragraph is*/}
             </p>

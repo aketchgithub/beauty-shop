@@ -5,7 +5,7 @@ import ProductPage from "../pages/ProductPage"
 import { Routes, Route, useNavigate } from "react-router-dom";
 import ProductsInfoPage from './ProductsInfo';
 import ShoppingCart  from '../pages/ShoppingCart'
-import Slideshow from '../components/Slideshow';
+// import Slideshow from '../components/Slideshow';
 import BillingInfo from '../pages/BillingInfo';
 import Receipt from '../pages/Receipt';
 import Orders from '../pages/Orders';

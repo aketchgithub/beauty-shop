@@ -8,6 +8,7 @@ const ProductsInfoPage = () => {
 
     const [product, setProduct] = useState(null);
     const [quantity, setQuantity] = useState(1); 
+    // eslint-disable-next-line no-unused-vars
     const [cartItem, setCartItem] = useState(0);
     const [isItemAdded, setIsItemAdded] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
@@ -43,7 +44,7 @@ const ProductsInfoPage = () => {
     const handleAddToCartClick = () => {
         const timestamp = Date.now();
         const newCartItem = { ...product, quantity, timestamp };
-        fetch('http://localhost:4000/cart', {
+        fetch('https://beaty-product-shop.onrender.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(newCartItem)
@@ -89,7 +90,7 @@ const ProductsInfoPage = () => {
                             </div>
                             <div className="bg-pink-300 py-4 px-6 rounded-2xl shadow-xl">
                                 <button onClick={handleAddToCartClick}>
-                                    <span className="uppercase text-white font-semibold">add to cart</span> 
+                                    <span className="uppercase text-white font-semibold">Add to Cart</span> 
                                     <span className="ml-3 "><FontAwesomeIcon bounce icon={faCartShopping} style={{color: "#F5F5F5",}}/></span>
                                 </button>
                             </div>
@@ -108,7 +109,7 @@ const ProductsInfoPage = () => {
                         <div className="  text-bold mt-10">
                         <Link to="/products">
                             <div className="text-lg font-medium text-pink-500 hover:underline text-dbrown dark:text-dbrown">
-                                continue shopping  
+                                Continue Shopping  
                             </div>   
                         </Link> 
                         </div>

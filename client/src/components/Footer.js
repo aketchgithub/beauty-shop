@@ -1,6 +1,6 @@
 
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function Footer() {
@@ -10,7 +10,7 @@ function Footer() {
 				<h1 className=" text-pink-500 font-semibold">
 					© 2023 All rights reserved | Built with ❤ at{" "} 
 					<span className="hover:pink font-semibold cursor-pointer">
-						Moringa school {" "} 
+						Moringa School {" "} 
 					</span>
 				</h1>
 			</div>
