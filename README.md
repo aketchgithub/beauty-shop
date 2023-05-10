@@ -1,30 +1,30 @@
-# Beauty Bliss E-commerce
-Beauty Bliss is an e-commerce platform that sells a wide range of beauty products. It consists of a frontend built with React and a backend built with Ruby on Rails.
+# Beauty Bliss
+Beauty Bliss is a web based application that provides an ecommerce platform for beauty products. It allows users to browse, and purchase beauty products conveniently.
 
 ##  Links
-- [deployed api](https://beaty-product-shop.onrender.com)
-- [LIve link](https://beauty-bliss-ul2a.vercel.app/products)
+ *  [deployed api](https://beaty-product-shop.onrender.com)
+*  [LIve link]
 
+#Features
+- Browse beauty products by category or brand.
+- Detailed product descriptions and reviews.
+- Add products to the cart and proceed to checkout.
+- Secure payment processing.
+- User authentication and account management.
+- Integration with a backend Ruby on Rails API.
+- Responsive and intuitive user interface built with React.
+
+## Technologies Used
+
+- Ruby on Rails: Backend API development.
+- React: Frontend user interface development.
+- PostgreSQL: Database management system.
+- RESTful API architecture.
+- HTML, CSS, and JavaScript: Frontend development.
+- Git: Version control system.
 
 ## Beauty Bliss Frontend
-The frontend is a responsive web application optimized for both desktop and mobile devices. It uses React, React Router, Axios, Tailwindcss, and Font Awesome to provide the following functionalities to the users:
-
-- View a list of beauty products
-- View the details of a beauty product
-- Add a beauty product to the cart
-- View the cart
-- Remove a beauty product from the cart
-- Create an account
-- Log in to an existing account
-- Log out of the account
-
-#### The app includes several user pages, including: 
- - the landing page, product page, 
- - cart page, checkout page, 
- -  confirm page.
- 
- #### It also includes: 
- -  an admin section where users with administrative privileges can add, edit, and delete products.
+The frontend is a responsive web application optimized for both desktop and mobile devices. It uses React, React Router, Axios, Tailwindcss, and Font Awesome.
 
 ## Beauty Bliss Backend
 The backend is built with Ruby on Rails and uses PostgreSQL as the database and RSpec as the testing framework. It provides several API endpoints that the frontend uses to retrieve and manipulate data. The models used in the backend are:
@@ -42,7 +42,7 @@ To set up the Beauty Bliss backend, follow these steps:
 Clone the repository:
        
     
-       git clone https://github.com/abdishukri-105/Beauty-Bliss.git
+       git clone https://github.com/aketchgithub/beauty-shop
 
                     
 ### Install dependencies:
@@ -67,7 +67,7 @@ Clone the repository:
 #### Clone the repository:
 
 
-    https://github.com/abdishukri-105/Beauty-Bliss
+    https://github.com/aketchgithub/beauty-shop
 
 #### Install dependencies:
 
@@ -84,12 +84,28 @@ Clone the repository:
 
 
 ## Authors
-- Abdishukri Mohamed (scrum master)
+- Victor Aketch
 - Mutheki Njora
 - Griffins Ngeno
 - Casey Ochieng
 - Louis Okwaro
-- Victor Aketch
+- Abdishukri Mohammed
 
 ## Conclusion
 Beauty Bliss is an e-commerce platform that provides an easy way for customers to purchase beauty products online. The frontend and backend work together seamlessly to provide users with a great shopping experience.
+
+## Contributing
+
+We welcome contributions to enhance the Beauty Shop App. If you want to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-new-feature`.
+3. Make your changes and commit them: `git commit -am 'Add some feature'`.
+4. Push the branch to your forked repository: `git push origin my-new-feature`.
+5. Submit a pull request detailing your changes.
+
+Please ensure your code follows the existing style conventions and includes appropriate tests.
+
+## License
+
+The Beauty Shop App is open source and available under the [Apache License 2.0](LICENSE).
