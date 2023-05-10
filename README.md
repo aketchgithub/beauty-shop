@@ -3,7 +3,7 @@ Beauty Bliss is a web based application that provides an ecommerce platform for 
 
 ##  Links
  *  [deployed api](https://beaty-product-shop.onrender.com)
-*  [LIve link]
+*  [LIve link](https://beauty-shop-two.vercel.app/)
 
 #Features
 - Browse beauty products by category or brand.
